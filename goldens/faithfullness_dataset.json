@@ -1,0 +1,13 @@
+[
+  {
+    "id": "f001",
+    "query": "what is vibe testing and why isn't it enough for deploying an llm app?",
+    "ideal_context": [
+      "coding, it is vibe testing. What is vibe testing? Look, I have written it here. Vibe testing means you casually trying an LLME application with a few prompts and judging it by feel. You asked 5 questions and read the answers. And judge based on the feel whether it is right or not. This is called vibe testing. So basically what you do is you ask 5-10 questions, the answer is right, you feel that it is working. It is informal, it is subjective, and it is usually not repeatable. Because today you asked 5 questions, after 10 days you won't ask the same 5 questions, you will ask something else. So it is not even repeatable. Now you must be understanding even after listening to vibe testing that it works only at the personal project level. By doing vibe testing, you don't make production grade software in the industry. Obviously. Right? Now I will tell you some instances, some case studies where teams made a mistake that they deployed a LLME based application by doing vibe testing. And I",
+      "applications. But if I ask the next question, have you ever evaluated it properly? Have you ever made an application or a chatbot? Have you ever evaluated it methodologically? So what would you say? I feel a lot of you will say that sir, I haven't evaluated it properly. But I asked him questions and I found the answer to it. So I assumed that this application is working properly. Right? Mostly we do this. What we do is we build an LLME-based application. Then before checking it, before launching it, before sharing it with someone, we ask the 4-5 questions that come to our mind at that point. And that's it. If the right responses come there, then we accept that our application is working properly. Actually, this whole phenomenon, this way of testing, this term has been given in the industry. It is called vibe testing. Just like vibe coding, it is vibe testing. What is vibe testing? Look, I have written it here. Vibe testing means you casually trying an LLME application with a few"
+    ],
+    "source_sessions": [
+      "1"
+    ]
+  }
+]
