@@ -6,13 +6,21 @@ from deepeval import evaluate
 from deepeval.test_case import LLMTestCase
 from deepeval.metrics import ContextualRecallMetric, ContextualPrecisionMetric
 
-from eval.reranker import RerankingRetriever
+from src.reranker import RerankingRetriever
+
 
 load_dotenv()
 
 GOLDEN_PATH = "goldens/retriever_goldens.json"
-JUDGE_MODEL = "gpt-4.1-mini"  
+#JUDGE_MODEL = "gpt-4.1-mini"  
 THRESHOLD = 0.7
+from deepeval.models import GeminiModel
+JUDGE_MODEL = GeminiModel(
+    model="gemini-3.5-flash-lite",
+    api_key=os.environ.get("GOOGLE_API_KEY"),
+    temperature=0,
+)
+
 
 
 # 1. LOAD the golden set --- the fixed, human-authored truth
