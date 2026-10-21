@@ -14,6 +14,7 @@ is purely the generator's fault --- the context was already correct.
 """
 
 from dotenv import load_dotenv
+import os
 
 from deepeval import evaluate
 from deepeval.test_case import LLMTestCase

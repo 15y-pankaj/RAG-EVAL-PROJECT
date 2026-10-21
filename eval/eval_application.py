@@ -1,5 +1,6 @@
 # eval_application.py
 from dotenv import load_dotenv
+import os
 
 from deepeval import evaluate
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
